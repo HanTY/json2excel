@@ -31,7 +31,10 @@ sheet,为sheet名称。
 
 用法为：
 
-from json2xlsx import Json2xlsx
-b=Json2xlsx(result, filename='test.xlsx')
-b.transform()
-b.xlsx_close()
+  from json2xlsx import Json2xlsx
+  
+  b=Json2xlsx(result, filename='test.xlsx')
+  
+  b.transform()
+  
+  b.xlsx_close()
